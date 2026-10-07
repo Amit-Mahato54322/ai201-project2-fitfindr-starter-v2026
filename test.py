@@ -35,6 +35,13 @@ MIN_RAM_GB = 4
 
 # Distribution name on PyPI -> module name you actually import.
 IMPORT_NAMES = {
+    "flask": "flask",
+    "google-auth": "google.auth",
+    "jinja2": "jinja2",
+    "markupsafe": "markupsafe",
+    "pyjwt": "jwt",
+    "rpds-py": "rpds",
+    "werkzeug": "werkzeug",
     "python-dotenv": "dotenv",
     "google-genai": "google.genai",
     "sentence-transformers": "sentence_transformers",
